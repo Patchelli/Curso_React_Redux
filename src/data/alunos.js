@@ -1,0 +1,15 @@
+export default [
+    {id:1,nome : "Ana",nota:9.2},
+    {id:2,nome : "Pedro",nota:8.2},
+    {id:3,nome : "João",nota:2.2},
+    {id:4,nome : "Nati",nota:8.1},
+    {id:5,nome : "Lucas",nota:4.5},
+    {id:6,nome : "Henrique",nota:6.2},
+    {id:7,nome : "Leo",nota:7.2},
+    {id:8,nome : "Saulo",nota:5.3},
+    {id:9,nome : "Roberto",nota:7.7},
+    {id:10,nome : "Maria",nota:6.3},
+    {id:11,nome : "Eduarda",nota:8.7},
+    {id:12,nome : "Anna",nota:1.2},
+    {id:13,nome : "Flavia",nota:0.2},
+]
