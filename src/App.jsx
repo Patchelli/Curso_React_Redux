@@ -7,14 +7,32 @@ import Aleaotrio from "./components/basicos/Aleaotrio";
 import Card from "./components/layout/Card"
 import FamiliaMembro from "./components/basicos/FamiliaMembro";
 import ListaAlunos from "./components/repeticao/ListaAlunos";
-
 import ListaProdutos from "./components/repeticao/ListaProdutos";
 import "./App.css"
+import ParOuImpar from "./components/condicional/ParOuImpar";
+import If from "./components/condicional/If";
+import IfUser from "./components/condicional/IfUser";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
+
+
 export default _ => {
     return (
         <div className="app" >
             <h1>Fundametos React</h1>
             <div className="Cards">
+                <Card titulo="If Usuario - Condicional" color="#b0ff">
+                    <UsuarioInfo usuario={{ nome: "Patchelli" }} />
+                    <UsuarioInfo usuario={{ nome: "Patrick" }} />
+                    <UsuarioInfo usuario={{ email: "patrick@eita.com" }} />
+                    <UsuarioInfo usuario={{}} />
+                    <UsuarioInfo usuario={{}} />
+                </Card>
+                <Card titulo="If - Condicional" color="#6c28">
+                    <If test={""} />
+                </Card>
+                <Card titulo="Impar ou Par" color="#f628">
+                    <ParOuImpar numero={21} />
+                </Card>
                 <Card titulo="Tabela Produtos" color="#b228">
                     <ListaProdutos />
                 </Card>

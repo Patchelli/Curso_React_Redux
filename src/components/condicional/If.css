@@ -1,0 +1,25 @@
+
+.If  table {
+    width: 100%;
+}
+.TabelaPIfrodutos th{
+    background-color: #0d5555;
+    color: #fff;
+}
+
+
+.If .Aprovado {
+    background-color: rgb(10, 196, 47);
+}
+
+.If .Reprovado {
+    background-color: rgb(222, 67, 40);
+}
+
+
+.If  table td {
+    padding: 0;
+    border: 1px solid black;
+}
+
+
